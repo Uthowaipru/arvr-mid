@@ -501,6 +501,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ARObjectPlace
   raycastManager: {fileID: 1661295071}
+  interaction: {fileID: 1661295077}
+  keepPlacing: 1
+  allowFeaturePointFallback: 0
+  tapMaxMovement: 20
   IsTap: 0
   ease: 0
   BuildingAlpha: {fileID: 6054974914020150471, guid: 9281593bc91cede48b9ff6976e2609e4, type: 3}
