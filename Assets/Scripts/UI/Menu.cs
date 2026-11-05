@@ -98,4 +98,14 @@ public class Menu : MonoBehaviour
             buttonRoutine = null;
         }
     }
+
+    private void OnDestroy()
+    {
+        // Kills any running tweens on Logo and buttons
+        if (Logo != null) Logo.DOKill();
+
+        if (PlayB != null) PlayB.DOKill();
+        if (SettingB != null) SettingB.DOKill();
+        if (InfoB != null) InfoB.DOKill();
+    }
 }

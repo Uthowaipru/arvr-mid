@@ -123,8 +123,8 @@ GameObject:
   - component: {fileID: 179667242768509181}
   - component: {fileID: 2187571123932756144}
   m_Layer: 0
-  m_Name: OBJ 2
-  m_TagString: Zuka
+  m_Name: B2_Floorplan_2
+  m_TagString: Buildings
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

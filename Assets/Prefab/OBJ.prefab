@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2187571123932756144}
   m_Layer: 0
   m_Name: OBJ
-  m_TagString: Zuka
+  m_TagString: Buildings
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

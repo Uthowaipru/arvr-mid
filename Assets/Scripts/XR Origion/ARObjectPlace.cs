@@ -30,7 +30,7 @@ public class ARObjectPlace : MonoBehaviour
 
     [SerializeField] Ease ease;
 
-    public GameObject BuildingAlpha, BuildingBeta;
+    public GameObject Building1, Building2, floorplan1, floorplan2, floorplan3;
     GameObject Gobj;
 
     private bool tracking;
@@ -175,13 +175,28 @@ public class ARObjectPlace : MonoBehaviour
     public void BuildingOne()
     {
         IsTap = false;
-        raycastManager.raycastPrefab = BuildingAlpha;
+        raycastManager.raycastPrefab = Building1;
     }
 
     public void BuildingTwo()
     {
         IsTap = false;
-        raycastManager.raycastPrefab = BuildingBeta;
+        raycastManager.raycastPrefab = Building2;
+    }
+    public void FloorplaneOne()
+    {
+        IsTap = false;
+        raycastManager.raycastPrefab = floorplan1;
+    }
+    public void FloorplanTwo()
+    {
+        IsTap = false;
+        raycastManager.raycastPrefab = floorplan2;
+    }
+    public void FloorplaneThree()
+    {
+        IsTap = false;
+        raycastManager.raycastPrefab = floorplan3;
     }
 
     // Hook this to a "Done" button to stop placing.
